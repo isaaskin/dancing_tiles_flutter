@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class Tile {
-  final int row;
-  final int column;
-  final int rowSpan;
-  final int columnSpan;
-  final Widget? child;
+  int row;
+  int column;
+  int rowSpan;
+  int columnSpan;
+  Widget? child;
 
-  const Tile(
+  Tile(
       {required this.row,
       required this.column,
       this.rowSpan = 1,
