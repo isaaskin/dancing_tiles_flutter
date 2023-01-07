@@ -193,6 +193,7 @@ class DemoState extends State<Demo> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Dancing Tiles Demo",
       theme: ThemeData(useMaterial3: true),
       home: Scaffold(
         body: Container(
