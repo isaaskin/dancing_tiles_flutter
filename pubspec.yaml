@@ -1,5 +1,5 @@
 name: dancing_tiles
-description: A new Flutter package project.
+description: A simple and lightweight Flutter package to create a grid view with animatable tiles.
 version: 0.0.1
 homepage:
 
