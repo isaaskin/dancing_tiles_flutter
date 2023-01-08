@@ -15,10 +15,10 @@ jobs:
         with:
           channel: 'stable'
       - run: flutter pub get
-        working-directory: .demo
+        working-directory: ./demo
       - run: flutter build web
-        working-directory: .demo
+        working-directory: ./demo
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4      
         with:
-          folder: .demo/build/web 
+          folder: ./demo/build/web 
