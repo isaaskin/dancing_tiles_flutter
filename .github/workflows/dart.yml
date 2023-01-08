@@ -24,7 +24,7 @@ jobs:
           channel: 'stable'
       - run: flutter pub get
         working-directory: ./demo
-      - run: flutter build web
+      - run: flutter build web --base-href "/dancing_tiles_flutter/"
         working-directory: ./demo
       - name: Upload a Build Artifact
         uses: actions/upload-pages-artifact@v1
