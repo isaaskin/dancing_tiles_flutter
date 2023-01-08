@@ -25,7 +25,13 @@ class DemoState extends State<Demo> {
         column: column,
         rowSpan: rowSpan,
         columnSpan: columnSpan,
-        child: Container(color: color, child: Center(child: Text(name))));
+        child: Container(
+            color: color,
+            child:
+                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Center(child: Text(name)),
+              Center(child: Text("Row: $row Column: $column RowSpan: $rowSpan ColumnSpan: $columnSpan"))
+            ])));
   }
 
   List<Tile> tiles = [];
@@ -216,7 +222,8 @@ class DemoState extends State<Demo> {
                   row: 1,
                   column: 11,
                   columnSpan: 2,
-                  child: Column(
+                  child: SingleChildScrollView(
+                      child: Column(
                     children: [
                       const Text(
                         "Tile states",
@@ -278,7 +285,7 @@ class DemoState extends State<Demo> {
                         },
                       )
                     ],
-                  ))
+                  )))
             ])),
       ),
     );
