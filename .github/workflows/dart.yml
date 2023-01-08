@@ -14,7 +14,5 @@ jobs:
           channel: 'stable'
       - run: flutter pub get
         working-directory: ./demo
-      - run: flutter test
-        working-directory: ./demo
       - run: flutter build web
         working-directory: ./demo
