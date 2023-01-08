@@ -8,6 +8,7 @@ jobs:
     name: Build Dancing Tiled Demo Web App
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
+      contents: write
       pages: write      # to deploy to Pages
       id-token: write   # to verify the deployment originates from an appropriate source
 
@@ -26,7 +27,7 @@ jobs:
       - run: flutter build web
         working-directory: ./demo
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-pages-artifact@v1
         with:
           name: github-pages
           path: ./demo/build/web
