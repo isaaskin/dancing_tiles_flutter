@@ -1,7 +1,7 @@
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Flutter Web](https://github.com/isaaskin/dancing_tiles_flutter/actions/workflows/dart.yml/badge.svg)](https://github.com/isaaskin/dancing_tiles_flutter/actions/workflows/dart.yml)
-
+[![Flutter Test Package](https://github.com/isaaskin/dancing_tiles_flutter/actions/workflows/flutter_test.yml/badge.svg)](https://github.com/isaaskin/dancing_tiles_flutter/actions/workflows/flutter_test.yml)
 
 # Dancing Tiles
 
