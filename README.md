@@ -1,26 +1,45 @@
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
-## Features
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Flutter Web](https://github.com/isaaskin/dancing_tiles_flutter/actions/workflows/dart.yml/badge.svg)](https://github.com/isaaskin/dancing_tiles_flutter/actions/workflows/dart.yml)
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Getting started
+# Dancing Tiles
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+A simple and lightweight Flutter package to create a grid view with animatable tiles.
 
-## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
 
-```dart
-const like = 'sample';
+## Demo
+
+Link to Demo App
+https://isaaskin.github.io/dancing_tiles_flutter
+
+![](https://raw.githubusercontent.com/isaaskin/dancing_tiles_flutter/main/demo/assets/dancing_tiles_flutter_demo_gif.gif)
+## Installation
+
+Add the following line to pubspec.yaml:
+
+```
+dependencies:
+  dancing_tiles: ^0.0.1
+```
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
 ```
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## Authors
+
+- [@isaaskin](https://www.github.com/isaaskin)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
