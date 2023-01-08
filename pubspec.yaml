@@ -1,7 +1,7 @@
 name: dancing_tiles
 description: A simple and lightweight Flutter package to create a grid view with animatable tiles
 version: 0.0.1
-homepage:
+repository: https://github.com/isaaskin/dancing_tiles_flutter
 
 environment:
   sdk: '>=2.18.6 <3.0.0'
