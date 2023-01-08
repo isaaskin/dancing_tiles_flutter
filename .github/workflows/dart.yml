@@ -16,3 +16,7 @@ jobs:
         working-directory: ./demo
       - run: flutter build web
         working-directory: ./demo
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4      
+        with:
+          folder: demo/build/web 
