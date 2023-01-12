@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import './tile.dart';
 
 class TilesManager extends StatelessWidget {
-  int row;
-  int column;
-  double gutter;
-  Duration duration;
-  Curve curve;
-  List<Tile> tiles;
+  final int row;
+  final int column;
+  final double gutter;
+  final Duration duration;
+  final Curve curve;
+  final List<Tile> tiles;
 
-  TilesManager({
+  const TilesManager({
     super.key,
     required this.row,
     required this.column,
