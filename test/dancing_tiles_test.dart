@@ -77,10 +77,12 @@ void main() {
 
     await widgetTester.pumpWidget(tilesManager);
 
-    expect((widgetTester.getSize(find.byKey(containerKey))).width, widgetTester.getSize(find.byKey(tmKey)).width / 4);
+    expect((widgetTester.getSize(find.byKey(containerKey))).width,
+        widgetTester.getSize(find.byKey(tmKey)).width / 4);
   }));
 
-  testWidgets('tile with span is created with correct size', ((widgetTester) async {
+  testWidgets('tile with span is created with correct size',
+      ((widgetTester) async {
     const containerKey = Key('ck');
     const tmKey = Key('tm');
 
@@ -101,6 +103,7 @@ void main() {
 
     await widgetTester.pumpWidget(tilesManager);
 
-    expect((widgetTester.getSize(find.byKey(containerKey))).width, widgetTester.getSize(find.byKey(tmKey)).width * 0.75);
+    expect((widgetTester.getSize(find.byKey(containerKey))).width,
+        widgetTester.getSize(find.byKey(tmKey)).width * 0.75);
   }));
 }

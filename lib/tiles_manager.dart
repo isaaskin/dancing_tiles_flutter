@@ -40,16 +40,8 @@ class TilesManager extends StatelessWidget {
       }
 
       double getLeft(Tile tile) {
-        if (tile.column > column) {
-          throw Exception([
-            "Tile column cannot be bigger than container column",
-            "Tile column: ${tile.row}",
-            "Container column: ${row}"
-          ]);
-        }
-
         if (column == 1) {
-          return gutter as double;
+          return gutter;
         } else {
           return (tile.column * gutter) + (tile.column - 1) * getUnitWidth();
         }

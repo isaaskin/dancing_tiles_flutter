@@ -30,7 +30,9 @@ class DemoState extends State<Demo> {
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
               Center(child: Text(name)),
-              Center(child: Text("Row: $row Column: $column RowSpan: $rowSpan ColumnSpan: $columnSpan"))
+              Center(
+                  child: Text(
+                      "Row: $row Column: $column RowSpan: $rowSpan ColumnSpan: $columnSpan"))
             ])));
   }
 
